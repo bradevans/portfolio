@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*            |||||||||            |||||||||            |||||||||            |||||||||            |||||||||            */
+/*            |||||||||            |||||||||            |||||||||            |||||||||            |||||||||            */
+/*            |||||||||            |||||||||            |||||||||            |||||||||            |||||||||            */
+/*            |||||||||            |||||||||            |||||||||            |||||||||            |||||||||            */
+/*            |||||||||            |||||||||            |||||||||            |||||||||            |||||||||            */
+
+
+a:link {color:#627260; text-decoration: none;}
+a:visited {color:#627260; text-decoration: none;}
+a:hover {color:#627260; text-decoration: none;}
+a:active {color:#627260; text-decoration: none;}
+
+#p10titleFader{
+	position: fixed;
+	top: 133px;
+	left: 27px;
+	font-family: "Trebuchet Ms";
+	font-style: bold;
+	font-size: 27px;
+	color: #75797D;
+}
+
+.style
+{
+	position: absolute;
+
+	font-family: "Trebuchet Ms";
+	font-weight: bold;
+	font-size: 24px;
+	color: #e6ebee;
+	
+	border-style: none;
+}
+
+.imgs{
+	position: fixed;
+	top: 390px;
+	left: 30px;
+}
+
+#arrow{
+	position: absolute;
+	bottom: 14px;
+	left: 36px;
+}
+
+#play{
+	position: absolute;
+	bottom: 16px;
+	left: 90px;
+}
+
+#playerEntry{
+	
+}
+
+#player1field{
+	position: fixed;
+	top: 10px;
+}
+
+#player2field{
+	position: fixed;
+	top: 66px;
+}
+
+#player3field{
+	position: fixed;
+	top: 122px;
+}
+
+#player4field{
+	position: fixed;
+	top: 178px;
+}
+
+#player5field{
+	position: fixed;
+	top: 234px;
+}
+
+#player6field{
+	position: fixed;
+	top: 290px;
+}
+
+#phaseInfoContainer{
+	position: fixed;
+	left: 6px;
+}
+
+.phaseInfo{
+	width: 95%;
+	font-family: "Trebuchet Ms";
+	font-style: italic;
+}
+
+#bpn{
+	position: fixed;
+	font-size: 5.2em;
+	color: #fff;
+}
+
+#pe{
+	position: fixed;
+	font-size: 1em;
+	color: #555555;
+}
+
+.bpnLeft{
+	text-shadow: 0 0 3px #999;
+}
+
+.bpnRight{
+	float: right;
+	text-shadow: 0 0 3px #999;
+}
+
+.peLeft{
+	
+}
+
+.peRight{
+	float: right;
+}
+
+#spacer1{
+	height: 57px;
+}
+
+#spacer2{
+	height: 67px;
+}
+
+#spacer3{
+	height: 68px;
+}
+
+#spacer4{
+	height: 66px;
+}
+
+#spacer5{
+	height: 68px;
+}
+
+
+
+
+
+
+

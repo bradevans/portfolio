@@ -1,0 +1,211 @@
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+	
+	hr{
+		margin-top: 80px;
+		margin-bottom: 80px;
+		width: 750px;
+		color: #cccccc;
+	}
+	
+	img{
+		margin-bottom: 43px;
+	}
+	
+	a:link{ text-decoration: none; color: #0099FF; }
+	a:visited{ text-decoration: none; color: #0099FF; }
+	a:hover{ text-decoration:  underline; color: #0099FF; }
+	a:active{ text-decoration:  underline; color: #0099FF; }
+	
+	#myName{
+		margin-top: 40px;
+		margin-bottom: 80px;
+		text-align: center;
+		font-family:"Courier New";
+		font-weight: bold;
+		font-size: 123px;
+		color: #C2C2C2;
+	}
+	
+	#myBio{
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;	
+		text-align: left;
+		font-family:"Helvetica";
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 22px;
+		color: #858585;
+	}
+	
+	.inner{
+		margin-right: 43px;
+	}
+	
+	.titles{
+		margin-bottom: 30px;
+		text-align: center;
+		font-family:"Helvetica";
+		font-weight: bold;
+		font-size: 24px;
+		color: #858585;
+	}
+	
+	.descriptions{
+		margin-bottom: 80px;
+		text-align: left;
+		font-family:"Helvetica";
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 20px;
+		color: #858585;
+	}
+	
+	.content{
+		position: relative;
+		width: 750px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	ul{
+		margin-bottom: 40px;
+		width: 750px;
+		float: left;
+	}
+	
+	li{
+		display: inline;
+	}
+	
+	img{
+		border-style: solid;
+		border-width: 1px;
+		border-color: #ccc;
+		cursor: pointer;
+	}
+	
+	img:hover{
+		-webkit-box-shadow: 0 0px 0px 0px #666;
+		   -moz-box-shadow: 0 0px 0px 0px #666;
+		        box-shadow: 0 0px 0px 0px #666;
+	}
+	
+	.bottomShadow{
+		-webkit-box-shadow: 0 8px 6px -6px #666;
+		   -moz-box-shadow: 0 8px 6px -6px #666;
+		        box-shadow: 0 8px 6px -6px #666;
+	}
+	
+}
+
+
+
+
+
+
+
+body{
+	background-image: url('assets/images/dust.png');
+	background-repeat: repeat;
+}
+
+hr{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	width: 750px;
+	color: #cccccc;
+}
+
+img{
+	margin-bottom: 43px;
+}
+
+a:link{ text-decoration: none; color: #0099FF; }
+a:visited{ text-decoration: none; color: #0099FF; }
+a:hover{ text-decoration:  underline; color: #0099FF; }
+a:active{ text-decoration:  underline; color: #0099FF; }
+
+#myName{
+	margin-top: 40px;
+	margin-bottom: 80px;
+	text-align: center;
+	font-family:"Courier New";
+	font-weight: bold;
+	font-size: 123px;
+	color: #C2C2C2;
+}
+
+#myBio{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: left;
+	font-family:"Helvetica";
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #858585;
+}
+
+.inner{
+	margin-right: 43px;
+}
+
+.titles{
+	margin-bottom: 30px;
+	text-align: center;
+	font-family:"Helvetica";
+	font-weight: bold;
+	font-size: 24px;
+	color: #858585;
+}
+
+.descriptions{
+	margin-bottom: 80px;
+	text-align: left;
+	font-family:"Helvetica";
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: #858585;
+}
+
+.content{
+	position: relative;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul{
+	margin-bottom: 40px;
+	width: 750px;
+	float: left;
+}
+
+li{
+	display: inline;
+}
+
+img{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	cursor: pointer;
+}
+
+img:hover{
+	-webkit-box-shadow: 0 0px 0px 0px #666;
+	   -moz-box-shadow: 0 0px 0px 0px #666;
+	        box-shadow: 0 0px 0px 0px #666;
+}
+
+.bottomShadow{
+	-webkit-box-shadow: 0 8px 6px -6px #666;
+	   -moz-box-shadow: 0 8px 6px -6px #666;
+	        box-shadow: 0 8px 6px -6px #666;
+}

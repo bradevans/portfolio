@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<!--<meta name="apple-mobile-web-app-capable" content="yes" />-->
+	<!--<meta name="apple-mobile-web-app-status-bar-style" content="black" />-->
+	
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	
+	<link rel="stylesheet" href="css.css" type="text/css" />
+	
+	<script type="text/javascript" src="js.js"></script>
+
+<title>
+Phase 10 Score Keeper
+</title>
+
+</head>
+
+<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+
+<div id="indexform">
+	
+	<div id="playingheader">
+		<p>Number of players:</p>
+	</div>
+	
+	<div id="playingdiv">
+		<input id="amountplaying" type="tel" value="" />
+	</div>
+	
+	<div id="gobtn">
+		<input type="button" value="Go" onclick="goBtnFunk()" />
+	</div>
+	
+</div>
+
+
+<div>
+	<div id="hidephaseinfo" onclick="hidePhases()">
+			Hide phases
+	</div>	
+	
+	<div id="phaseinfobtn" onclick="showPhases()">
+		Phases	
+	</div>
+	
+	<div id="phaseinfo">
+		<ul>
+			<li>1. 2 sets of 3</li>
+			<li>2. 1 set of 3 & 1 run of 4</li>
+			<li>3. 1 set of 4 & 1 run of 4</li>
+			<li>4. 1 run of 7</li>
+			<li>5. 1 run of 8</li>
+			<li>6. 1 run of 9</li>
+			<li>7. 2 sets of 4</li>
+			<li>8. 7 cards of one color</li>
+			<li>9. 1 set of 5 & 1 set of 2</li>
+			<li>10. 1 set of 5 & 1 set of 3</li>
+		</ul>
+	</div>
+		
+</div>
+
+<div id="alertbox">Choose between 2 and 6 players.</div>
+
+
+<!-- Entering the players on index.html -->
+<div id="playerentrypage">
+	<div id="player1entry">Player 1:<br /><input type="text" id="player1input"></div>
+	<div id="player2entry">Player 2:<br /><input type="text" id="player2input"></div>
+	<div id="player3entry">Player 3:<br /><input type="text" id="player3input"></div>
+	<div id="player4entry">Player 4:<br /><input type="text" id="player4input"></div>
+	<div id="player5entry">Player 5:<br /><input type="text" id="player5input"></div>
+	<div id="player6entry">Player 6:<br /><input type="text" id="player6input"></div>
+	<div id="playerentrysubmit"><input type="button" value="Go" onclick="keepScore()"</div>
+</div>
+
+<div id="increasep1ScoreDiv">
+	<input id="p1ScoreIncreaseInfo" type="tel" value="" />
+	<input id="p1ScoreIncreaseInfoSubmit" type="submit" onclick="submitp1Score()"/>
+</div>
+
+<div id="increasep2ScoreDiv">
+	<input id="p2ScoreIncreaseInfo" type="tel" value="" />
+	<input id="p2ScoreIncreaseInfoSubmit" type="submit" onclick="submitp2Score()"/>
+</div>
+
+<div id="increasep3ScoreDiv">
+	<input id="p3ScoreIncreaseInfo" type="tel" value="" />
+	<input id="p3ScoreIncreaseInfoSubmit" type="submit" onclick="submitp3Score()"/>
+</div>
+
+<div id="increasep4ScoreDiv">
+	<input id="p4ScoreIncreaseInfo" type="tel" value="" />
+	<input id="p4ScoreIncreaseInfoSubmit" type="submit" onclick="submitp4Score()"/>
+</div>
+
+<div id="increasep5ScoreDiv">
+	<input id="p5ScoreIncreaseInfo" type="tel" value="" />
+	<input id="p5ScoreIncreaseInfoSubmit" type="submit" onclick="submitp5Score()"/>
+</div>
+
+<div id="increasep6ScoreDiv">
+	<input id="p6ScoreIncreaseInfo" type="tel" value="" />
+	<input id="p6ScoreIncreaseInfoSubmit" type="submit" onclick="submitp6Score()"/>
+</div>
+
+<div id="gameplay">
+	
+	<div id="p1name"></div>
+	<div id="p1phase"><input id="p1phaseInput" type="button" value="1" onclick="increasep1Phase()" /></div>
+	<div id="p1score"<input id="p1scoreInput" type="button" value="0" onclick="increasep1Score()" /></div>
+	
+	<div id="p2name"></div>
+	<div id="p2phase"><input id="p2phaseInput" type="button" value="1" onclick="increasep2Phase()" /></div>
+	<div id="p2score"><input id="p2scoreInput" type="button" value="0" onclick="increasep2Score()" /></div>
+
+	<div id="p3name"></div>
+	<div id="p3phase"><input id="p3phaseInput" type="button" value="1" onclick="increasep3Phase()" /></div>
+	<div id="p3score"><input id="p3scoreInput" type="button" value="0" onclick="increasep3Score()" /></div>
+	
+	<div id="p4name"></div>
+	<div id="p4phase"<input id="p4phaseInput" type="button" value="1" onclick="increasep4Phase()" /></div>
+	<div id="p4score"<input id="p4scoreInput" type="button" value="0" onclick="increasep4Score()" /></div>
+	
+	<div id="p5name"></div>
+	<div id="p5phase"<input id="p5phaseInput" type="button" value="1" onclick="increasep5Phase()" /></div>
+	<div id="p5score"<input id="p5scoreInput" type="button" value="0" onclick="increasep5Score()" /></div>
+	
+	<div id="p6name"></div>
+	<div id="p6phase"<input id="p6phaseInput" type="button" value="1" onclick="increasep6Phase()" /></div>
+	<div id="p6score"<input id="p6scoreInput" type="button" value="0" onclick="increasep6Score()" /></div>
+	
+</div>
+
+<script type="text/javascript">
+	document.getElementById("increasep1ScoreDiv").style.display = "none";
+	document.getElementById("increasep2ScoreDiv").style.display = "none";
+	document.getElementById("increasep3ScoreDiv").style.display = "none";
+	document.getElementById("increasep4ScoreDiv").style.display = "none";
+	document.getElementById("increasep5ScoreDiv").style.display = "none";
+	document.getElementById("increasep6ScoreDiv").style.display = "none";
+	document.getElementById("gameplay").style.display = "none";
+	document.getElementById("hidephaseinfo").style.display = "none";
+	document.getElementById("phaseinfo").style.display = "none";
+	document.getElementById("alertbox").style.display = "none";
+	document.getElementById("playerentrypage").style.display = "none";
+	
+	for (var i = 0; i < 6; i++){
+			document.getElementById("p" + (i+1) + "name").style.display = "none";
+			document.getElementById("p" + (i+1) + "phase").style.display = "none";
+			document.getElementById("p" + (i+1) + "score").style.display = "none";
+	}
+</script>
+
+</body>
+
+</html>

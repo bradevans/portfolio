@@ -1,0 +1,78 @@
+body{
+	background-image: url('assets/images/dust.png');
+	background-repeat: repeat;
+}
+
+#myName{
+	text-align: center;
+	font-family:"Courier New";
+	font-weight: bold;
+	font-size: 123px;
+	color: #C2C2C2;
+}
+
+.content{
+	position: relative;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resumeTitles{
+	margin-bottom: 28px;
+	text-align: left;
+	font-family:"Helvetica";
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #858585;
+}
+
+.company{
+	margin-bottom: 10px;
+	text-align: left;
+	font-family:"Helvetica";
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+}
+
+.city{
+	text-align: left;
+	font-family:"Helvetica";
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #666666;
+}
+
+.job{
+	margin-bottom: 16px;
+	text-align: left;
+	font-family:"Helvetica";
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #333333;
+}
+
+.description{
+	margin-bottom: 80px;
+	text-align: left;
+	font-family:"Helvetica";
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #333333;
+}
+
+.degree{
+	margin-bottom: 30px;
+	text-align: left;
+	font-family:"Helvetica";
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #333333;
+}

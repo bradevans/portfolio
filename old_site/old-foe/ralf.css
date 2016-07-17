@@ -1,0 +1,286 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+
+a:link {color: #fff; text-decoration: none; }
+a:active {color: #fff; text-decoration: active; }
+a:visited {color: #fff; text-decoration: none; }
+a:hover {color: #fff; text-decoration: none; }
+
+a#pressA:link {color: #333; text-decoration: none; }
+a#pressA:active {color: #999; text-decoration: active; }
+a#pressA:visited {color: #999; text-decoration: none; }
+a#pressA:hover {color: #999; text-decoration: none; }
+
+a#sourceA:link {color: #999; text-decoration: none; }
+a#sourceA:active {color: #999; text-decoration: active; }
+a#sourceA:visited {color: #999; text-decoration: none; }
+a#sourceA:hover {color: #333; text-decoration: none; }
+
+#firstPressLink{
+	margin-top: -10px;
+}
+
+.pressLinks{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#pressSourcing{
+	margin-top: 3px;
+	color: #999;
+	font-style: italic;
+	font-size: small;
+	text-indent: 18px;
+}
+
+body{
+	background-color: #fff;
+}
+
+p{
+	text-indent: 24px;
+}
+
+p.platformP{
+	text-indent: 0px;
+}
+
+p.platformPH{
+	font-weight: bold;
+	text-indent: 0px;
+}
+
+.platformImages{
+	float: left;
+	margin-top: 19px;
+	padding-right: 13px;
+}
+
+#siteContainer{
+	position: relative;
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+#footer{
+	position: absolute;
+	width: 1000px;
+	height: 20px;
+	color: #fff;
+	background-color: #7194d0;
+	text-align: center;
+	font-family: "Trebuchet MS";
+	font-size: small;
+	padding-top: 4px;
+}
+
+#topContainer{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 157px;
+	width: 938px;
+	background-color: #ffffff;
+}
+
+#topImageContainer{
+	position: relative;
+	left: 31px;
+	top: -15px;
+	height: 137px;
+	width: 938px;
+}
+
+#navContainer{
+	position: relative;
+	left: 32px;
+	top: 0px;
+	height: 30px;
+	width: 938px;
+}
+
+#headerSource{
+	position: relative;
+	top: 102px;
+	right: 15px;
+	float: right;
+	font-family: "Trebuchet MS";
+	font-style: italic;
+	font-size: smaller;
+	color: #999;
+}
+
+#homeLink{
+	z-index: 9998;
+}
+
+#platformsLink{
+	z-index: 9997;
+	left: 116px;
+}
+
+#endorsementsLink{
+	z-index: 9996;
+	left: 232px;
+}
+
+#pressLink{
+	z-index: 9995;
+	left: 348px;
+}
+
+#contactLink{
+	z-index: 9994;
+	left: 463px;
+}
+
+#signUp{
+	z-index: 9992;
+	left: 603px;
+	width: 334px;
+}
+
+#signUpTextDiv{
+	position: relative;
+	z-index: 9993;
+	left: 100px;
+	top: -30px;
+}
+
+#joinButton{
+	position: relative;
+	z-index: 9999;
+	left: 882px;
+	width: 59px;
+}
+
+.navLinks{
+	position: absolute;
+	top: 0px;
+}
+
+#linkedInContainer{
+	position: relative;
+	top: 10px;
+}
+
+#paypalContainer{
+	position: relative;
+	float: right;
+	top: -33px;
+	left: 17px;
+}
+
+
+#leftConatiner{
+	position: relative;
+	width: 572px;
+	margin-left: 32px;
+	margin-top: 30px;
+}
+
+#platforms{
+	position: relative;
+	top: -650px;
+	height: 1200px;
+	font-family: serif;
+}
+
+#endorsementsContent{
+	position: relative;
+	top: -648px;
+	height: 700px;
+	font-family: "Trebuchet MS";
+}
+
+li#endorseTitle{
+	font-family: "Trebuchet MS";
+	font-size: larger;
+	font-weight: bold;
+    font-style: normal;
+	color: #666;
+}
+
+li {
+    font-size: inherit;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 22px;
+    list-style-type: disc;
+}
+
+#pressContent{
+	position: relative;
+	top: -648px;
+	height: 1000px;
+	font-family: "Trebuchet MS";
+}
+
+#speaker{
+	position: relative;
+	top: 2px;
+	left: 4px;
+}
+
+#platformsImages{
+	position: relative;
+	float: left;	
+}
+
+#blueHR{
+	position: relative;
+	top: -290px;
+}
+
+#redHR{
+	position: relative;
+	top: -10px;
+}
+
+#bioContainer{
+	position: relative;
+	top: -284px;
+	height: 700px;
+	text-align: justify;
+}
+
+#slideShow{
+	position: absolute;
+	top: 10px;
+	left: 0 px;
+	width: 572px;
+	height: 250px;
+}
+	
+#rightContainer{
+	position: relative;
+	top: 10px;
+	float: left;
+	margin-top: 32px;
+	margin-left: 635px;
+}
+		
+#facebookContainer{
+	position: relative;
+}

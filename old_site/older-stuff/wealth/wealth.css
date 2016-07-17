@@ -1,0 +1,68 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+
+body{
+	text-align: center;
+}
+
+#siteContainer{
+	position: absolute;
+	margin: auto;
+}
+
+#headline{
+	text-align: left;
+	position: absolute;
+	width: 690px;
+	top: 168px;
+	left: 40px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 42px;
+}
+
+#subhead{
+	text-align: left;
+	position: absolute;
+	width: 690px;
+	top: 281px;
+	left: 40px;
+	font-family: Georgia;
+	font-size: 24px;
+	font-style: italic;
+	color: #555555;
+}
+
+#wealthBody{
+	text-align: left;
+	position: absolute;
+	width: 690px;
+	top: 408px;
+	left: 40px;
+	font-family: Georgia;
+	font-size: 18px;
+	color: #000;
+}
+
+#wealthIMG{
+	float: right;
+}
