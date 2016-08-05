@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Phase 10 Score Keeper</title>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+   
+    <script>
+      function hideAddressBar()
+      {
+          if(!window.location.hash)
+          { 
+              if(document.height <= window.outerHeight + 10)
+              {
+                  document.body.style.height = (window.outerHeight + 60) +'px';
+                  setTimeout( function(){ window.scrollTo(0, 1); }, 50 );
+              }
+              else
+              {
+                  setTimeout( function(){ window.scrollTo(0, 1); }, 0 ); 
+              }
+          }
+      } 
+
+      window.addEventListener("load", hideAddressBar );
+      window.addEventListener("orientationchange", hideAddressBar ); 
+    </script>
+
+		
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	
+	</head>
+	
+		<body>
+			
+			
+			<div id='p10titleFader'>Phase 10 Scorekeeper</div>
+			
+			<div id='playerEntry'>
+			
+				<div id="player1field"><input class="style" type="text" id="player1input" value="p1 name" /></div>
+				<div id="player2field"><input class="style" type="text" id="player2input" value="" /></div>
+				<div id="player3field"><input class="style" type="text" id="player3input" value="" /></div>
+				<div id="player4field"><input class="style" type="text" id="player4input" value="" /></div>
+				<div id="player5field"><input class="style" type="text" id="player5input" value="" /></div>
+				<div id="player6field"><input class="style" type="text" id="player6input" value="" /></div>
+			
+			</div>
+			
+			<div class='imgs'><img id='arrow' src='arrow.png' /><img id='play' src='play.png' /></div>
+			
+			<div id="phaseInfoContainer">
+				
+				<div id="bpn" class="phaseInfo">
+				
+					<div class="bpnRight">2</div><div class="bpnLeft">1</div>
+					<div class="bpnRight">4</div><div class="bpnLeft">3</div>
+					<div class="bpnRight">6</div><div class="bpnLeft">5</div>
+					<div class="bpnRight">8</div><div class="bpnLeft">7</div>
+					<div class="bpnRight">10</div><div class="bpnLeft">9</div>
+					
+				
+				</div>
+				
+				<div id="pe" class="phaseInfo">
+				
+					<div id='spacer1'></div>		<div class='peRight'>set of 3 run of 4</div><div class='peLeft'>2 sets of 3</div>
+					<div id='spacer2'></div>		<div class='peRight'>run of 7</div><div class='peLeft'>set of 4 run of 4</div>
+					<div id='spacer3'></div>		<div class='peRight'>run of 9</div><div class='peLeft'>run of 8</div>
+					<div id='spacer4'></div>		<div class='peRight'>7 cards of one color</div><div class='peLeft'>2 sets of 4</div>
+					<div id='spacer5'></div>		<div class='peRight'>set of 5 set of 3</div><div class='peLeft'>set of 5 set of 2</div>
+					
+				</div>
+				
+			</div>
+		
+		</body>
+
+</html>

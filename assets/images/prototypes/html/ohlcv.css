@@ -1,0 +1,33 @@
+body{
+	text-align: center;
+	font-family:"Helvetica";
+	font-weight: bold;
+	font-size: 20px;
+	color: #858585;
+	background-image: url('../../dust.png');
+	background-repeat: repeat;
+}
+
+.titles{
+	margin-top: 30px;
+	width: 100%;
+}
+
+.description{
+	margin-top: 28px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 478px;
+	font-family:"Helvetica";
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: #858585;
+}
+
+img{
+	border: 1px;
+	border-style: solid;
+	border-color: #ccc;
+}

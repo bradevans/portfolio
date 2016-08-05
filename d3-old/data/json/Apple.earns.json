@@ -1,0 +1,32 @@
+[
+    {
+        "Quarter": "Q1 2012",
+        "Actual": 12.3,
+        "Estimate": 10.03
+    },
+    {
+        "Quarter": "Q2 2012",
+        "Actual": 9.32,
+        "Estimate": 10.37
+    },
+    {
+        "Quarter": "Q3 2012",
+        "Actual": 8.67,
+        "Estimate": 8.75
+    },
+    {
+        "Quarter": "Q4 2012",
+        "Actual": 13.81,
+        "Estimate": 13.52
+    },
+    {
+        "Quarter": "Q1 2013",
+        "Actual": 10.09,
+        "Estimate": 9.98
+    },
+    {
+        "Quarter": "Q2 2013",
+        "Actual": null,
+        "Estimate": 7.38
+    }
+]
