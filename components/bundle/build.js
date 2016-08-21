@@ -584,12 +584,12 @@
 
 	        return {
 	            dashId: Drawer.dataset.dashId,
-	            widgetId: document.getElementById('WidgetId').dataset.widget,
+	            widgetId: 10,//document.getElementById('WidgetId').dataset.widget,
 	            slug: Drawer.dataset.slug
 	        };
 	    },
 	    componentDidMount: function componentDidMount() {
-	        $.ajax({
+	        /*$.ajax({
 	            type: "GET",
 	            url: Urls.edit_widget(),
 	            data: { "widget_id": this.props.widgetId, "dash_id": this.props.dashId },
@@ -603,7 +603,7 @@
 	                console.error(status);
 	                console.error(err);
 	            }.bind(this)
-	        });
+	        });*/
 	    },
 	    openDrawer: function openDrawer() {
 	        this.setState({

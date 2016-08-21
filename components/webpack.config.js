@@ -8,7 +8,7 @@ module.exports = {
         path: 'bundle/',
         // Use the name specified in the entry key as name for the bundle file.
         filename: 'build.js',
-        publicPath: '/bundle/'
+        publicPath: 'bundle/'
     },
     module: {
         loaders: [
