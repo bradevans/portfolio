@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/components/TextArea-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/CharacterLimit-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/MultipleSelect-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/TextInput-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/Button-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/AdvancedSearchForm-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/main-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/CheckboxList-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/Radio-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/AdvancedSearchModal-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/Text-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/Select-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/Drawer-compiled.js" />
+        <item url="file://$PROJECT_DIR$/components/CheckUncheckAll-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/components/TextArea-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/CharacterLimit-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/MultipleSelect-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/TextInput-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/Button-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/AdvancedSearchForm-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/main-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/CheckboxList-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/Radio-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/AdvancedSearchModal-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/Text-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/Select-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/Drawer-compiled.js" />
+      <root url="file://$PROJECT_DIR$/components/CheckUncheckAll-compiled.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
