@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pancake</title>
+
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="App">
+    <div class="App-header">
+      <h2>Edit Distance: <span id="distance"></span></h2>
+    </div>
+    <div class="App-intro">
+      <label for="word1">A:&nbsp;</label>
+      <input id="word1" type="text"/>
+      <br />
+      <label for="word2">B:&nbsp;</label>
+      <input id="word2" type="text"/>
+      <br />
+    </div>
+  </div>
+
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+
+  <script src="https://code.jquery.com/qunit/qunit-2.0.1.js"></script>
+  <script type="text/javascript" src="scripts.js"></script>
+  <script src="tests.js"></script>
+</body>
+
+</html>
