@@ -18,17 +18,12 @@ var getEditDistance = function(word1val, word2val){
         matrix[0][j] = j;
     }
 
-    // examine rows/columns
+    // examine rows/columns adding to matrix
     for (i = 1; i <= word2val.length; i++) {
         for (j = 1; j <= word1val.length; j++) {
 
-            // if char[i] are equal, add to matrix
             if (word2val.charAt(i - 1) === word1val.charAt(j - 1)) {
                 matrix[i][j] = matrix[i - 1][j - 1];
-
-                console.log(matrix);
-
-            // else,
             } else {
                 matrix[i][j] =
                     Math.min(matrix[i - 1][j - 1] + 1,
