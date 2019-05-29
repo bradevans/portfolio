@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/citizenship/static/css/main.13fd5f76.chunk.css",
-    "main.js": "/citizenship/static/js/main.6decb8b1.chunk.js",
-    "main.js.map": "/citizenship/static/js/main.6decb8b1.chunk.js.map",
+    "main.css": "/citizenship/static/css/main.57af254e.chunk.css",
+    "main.js": "/citizenship/static/js/main.caff41ca.chunk.js",
+    "main.js.map": "/citizenship/static/js/main.caff41ca.chunk.js.map",
     "runtime~main.js": "/citizenship/static/js/runtime~main.5c545e7e.js",
     "runtime~main.js.map": "/citizenship/static/js/runtime~main.5c545e7e.js.map",
     "static/js/2.65aa1cca.chunk.js": "/citizenship/static/js/2.65aa1cca.chunk.js",
     "static/js/2.65aa1cca.chunk.js.map": "/citizenship/static/js/2.65aa1cca.chunk.js.map",
     "index.html": "/citizenship/index.html",
-    "precache-manifest.bc449f4d532845fcc88d256b2fd1561a.js": "/citizenship/precache-manifest.bc449f4d532845fcc88d256b2fd1561a.js",
+    "precache-manifest.485698821176768c3be5080db472ef3f.js": "/citizenship/precache-manifest.485698821176768c3be5080db472ef3f.js",
     "service-worker.js": "/citizenship/service-worker.js",
-    "static/css/main.13fd5f76.chunk.css.map": "/citizenship/static/css/main.13fd5f76.chunk.css.map"
+    "static/css/main.57af254e.chunk.css.map": "/citizenship/static/css/main.57af254e.chunk.css.map"
   }
 }
